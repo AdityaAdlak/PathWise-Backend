@@ -1,0 +1,118 @@
+python
+java
+c
+c++
+c#
+html
+css
+javascript
+typescript
+react
+angular
+vue.js
+svelte
+nodejs
+node.js
+express
+next.js
+nestjs
+mongoDB
+mysql
+postgresql
+sql
+firebase
+sqlite
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+keras
+openCV
+flask
+django
+fastapi
+huggingface
+pytorch
+langchain
+llamaindex
+git
+github
+bitbucket
+gitlab
+linux
+bash
+zsh
+powershell
+aws
+azure
+gcp
+docker
+kubernetes
+jenkins
+terraform
+ansible
+ci/cd
+apache kafka
+airflow
+dbt
+hadoop
+spark
+networking
+cybersecurity
+ethical hacking
+penetration testing
+firewalls
+siem
+wireshark
+nmap
+design thinking
+figma
+adobe xd
+wireframing
+prototyping
+adobe photoshop
+illustrator
+agile
+scrum
+jira
+asana
+excel
+power bi
+tableau
+looker
+rest api
+graphql
+jwt
+oauth
+soap
+json
+yaml
+xml
+react native
+flutter
+swift
+kotlin
+dart
+solidity
+blockchain
+web3.js
+truffle
+hardhat
+jest
+mocha
+chai
+selenium
+cypress
+postman
+new relic
+prometheus
+grafana
+opencv
+r
+statistics
+machine learning
+deep learning
+nlp
+computer vision

@@ -1,9 +1,12 @@
 import express from 'express';
-import {rolePrediction} from "../Controllers/roleController.js"
+import {analyzeUser} from "../Controllers/userDataController.js"
+import {upload} from "../Middlewares/uploadResume.js"
 const router = express.Router();
 
-router.post('/predict-role', async (req, res) => {
-    rolePrediction(req,res);
-});
+
+router.post('/analyze',upload.single('resume'),(req,res)=>{
+    analyzeUser(req,res);
+    // remember key name shold be resume
+})
 
 export {router};
