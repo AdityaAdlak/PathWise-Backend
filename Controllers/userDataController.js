@@ -11,12 +11,14 @@ const analyzeUser = async(req,res)=>{
 
 
     const userData = {
-  interests: JSON.parse(interests),
-  skills: JSON.parse(skills),
+  interests: interests,
+  skills: skills,
   stream: stream.trim(),
   education: education.trim(),
   time: time.trim()
 }
+
+console.log("logging user data ",userData)
 
     const mlResponse = await axios.post('http://localhost:5000/predict', userData);
     const predictedRole = mlResponse.data.predicted_role;
