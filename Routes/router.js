@@ -16,7 +16,7 @@ const router = express.Router();
 router.get('/options' ,(req,res)=> {
     getAvailableOptions(req,res);
 })
-router.post('/analyze',upload.single('resume'),(req,res)=>{
+router.post('/analyze',upload.single('resume'),auth,(req,res)=>{
     analyzeUser(req,res);
     // remember key name shold be resume
 })
